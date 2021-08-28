@@ -1,0 +1,17 @@
+{
+  "name": "mjml-email-framework-boilerplate",
+  "version": "1.0.0",
+  "main": "src/index.mjml",
+  "license": "MIT",
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output src/index.html",
+    "server": "live-server --host=localhost --open=src",
+    "dev": "concurrently \"yarn start\" \"yarn server\"",
+    "build": "mjml src/index.mjml --output src/index.html"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "live-server": "^1.2.1",
+    "mjml": "^4.10.2"
+  }
+}
