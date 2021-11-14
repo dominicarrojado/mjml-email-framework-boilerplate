@@ -1,5 +1,7 @@
 # MJML Email Framework Boilerplate
 
+[![CI/CD](https://github.com/dominicarrojado/mjml-email-framework-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/mjml-email-framework-boilerplate/actions/workflows/ci.yml)
+
 A local development setup or boilerplate for [MJML email framework](https://mjml.io/).
 
 ## Quick Start
