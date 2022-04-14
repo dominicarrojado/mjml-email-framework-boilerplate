@@ -38,3 +38,7 @@ yarn build
 ## VSCode Extensions
 
 - [MJML](https://marketplace.visualstudio.com/items?itemName=mjmlio.vscode-mjml)
+
+## Learn
+
+Learn how to build this setup or boilerplate [here](https://dominicarrojado.com/posts/how-to-setup-local-development-for-mjml-framework/).
