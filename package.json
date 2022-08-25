@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "mjml --watch src/index.mjml --output src/index.html",
-    "server": "live-server --host=localhost --open=src",
+    "server": "live-server --host=localhost --watch=src --open=src --ignorePattern=\".*.mjml\"",
     "dev": "concurrently \"yarn start\" \"yarn server\"",
     "build": "mjml src/index.mjml --output src/index.html"
   },
